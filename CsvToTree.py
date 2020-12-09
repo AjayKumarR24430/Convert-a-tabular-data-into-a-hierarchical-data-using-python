@@ -29,7 +29,7 @@ def build_leaf(name, leaf):
     """ Recursive function to build desired custom tree structure
 
     """
-    res = {"name": name }
+    res = {"number": name }
 
     # add children node if the leaf actually has any children
     if len(leaf.keys()) > 0:
